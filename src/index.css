@@ -30,7 +30,7 @@ h2, h3, h4, p, ul{
 
 .header_title{
     display: block;
-    margin: auto;
+    margin: 0 auto;
     width: 60%;
 }
 
