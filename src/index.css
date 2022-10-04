@@ -1,0 +1,71 @@
+/*-----Reset----*/
+:root{
+    --background-cards : #062226;
+   /* --background-body: rgb(73, 221, 73);*/
+    
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /*background-color:var(--background-body);*/
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://images.alphacoders.com/876/876589.jpg);
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    position:relative;
+}
+
+h2, h3, h4, p, ul{
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+
+.header_title{
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+img{
+    display: block;
+}
+button{
+    border-radius: 50px;
+    color: black;
+    border: none;
+    font-size: 30px;
+    padding: auto;
+}
+#idLocation{
+    max-width: 100%;
+    border: 10px;
+    outline: none;
+    font-size: 30px;
+
+}
+
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+form{
+    text-align: center;
+    padding: 20px;
+
+}
+article{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center
+}

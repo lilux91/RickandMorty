@@ -1,0 +1,82 @@
+.card{
+    background-color: var(--background-cards);
+    color: white;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card_header{
+    position: relative;
+}
+.card_container-status{
+    position: absolute;
+    top:20px;
+    left: 0;
+    width: 100px;
+    background-color: var(--background-cards);
+    padding: 6px;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.card_circle-status{
+    width: 14px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.unknow{
+    background-color: #aaa ;
+}
+.Dead{
+    background-color: red;
+}
+.Alive{
+    background-color: green;
+}
+
+.card_container-status{
+    position: absolute;
+    top:20px;
+    left: 0;
+    width: 100px;
+    background-color: var(--background-cards);
+    padding: 5px;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+
+}
+
+.card_body{
+    padding: 25px;
+
+}
+
+.card_name{
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+.card_list{
+    display: grid;
+    gap: 13px;
+}
+
+.car_item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: 500;
+
+}
+
+
+.card_span{
+    color: #ccc9;
+    transform: translateX(10px);
+}
