@@ -27,11 +27,16 @@ h2, h3, h4, p, ul{
 
 
 }
+.header.header{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
 
 .header_title{
     display: block;
     margin: auto;
-    width: 60%;
+    width: 70%;
     padding: 50px;
 }
 

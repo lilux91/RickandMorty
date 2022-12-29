@@ -65,8 +65,8 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        <img src={rick} alt=""/>
+      <header className='header'>
+        <img src={rick} alt="title"/>
         {/* <img className='header_title' src='./src/assets/img/rick.png' alt='title'></img> */}
       </header>
       <form onSubmit={handleSubmit}>
