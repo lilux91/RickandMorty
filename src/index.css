@@ -1,7 +1,7 @@
 /*-----Reset----*/
 :root{
     --background-cards : #062226;
-   /* --background-body: rgb(73, 221, 73);*/
+/* --background-body: rgb(73, 221, 73);*/
     
 }
 
@@ -40,7 +40,7 @@ img{
 }
 button{
     border-radius: 50px;
-    color: black;
+    color: rgb(0, 0, 0);
     border: none;
     font-size: 30px;
     padding: auto;

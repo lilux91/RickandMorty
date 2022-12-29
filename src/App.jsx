@@ -7,6 +7,7 @@ import Error from './components/Error'
 import FilterList from './components/FilterList'
 import LocationInfo from './components/LocationInfo'
 import getRandomNumber from './utils/getRandomNumber'
+import rick from '/src/assets/img/rick.png'
 
 function App() {
 
@@ -65,7 +66,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <img className='header_title' src='./src/assets/img/rick.png' alt='title'></img>
+        <img src={rick} alt=""/>
+        {/* <img className='header_title' src='./src/assets/img/rick.png' alt='title'></img> */}
       </header>
       <form onSubmit={handleSubmit}>
         <input
